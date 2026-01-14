@@ -1,0 +1,35 @@
+---
+interface Props {
+points: number;
+question: string;
+}
+
+const { points, question } = Astro.props;
+---
+
+<div class="game-card hover:scale-105 hover:rotate-6 transition duration-300 
+            ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] group relative w-50 
+            h-37.5 cursor-pointer" 
+    data-points={points} 
+    data-question={question}>
+    <div class="inset-0 flex items-center justify-center 
+                border-2 rounded-lg group-hover:bg-slate transition-all 
+                duration-300 opacity-100 group-[.revealed]:opacity-0">
+        <div class="text-4xl font-bold">{points}</div>
+    </div>
+    <div class="text-xl absolute inset-0 flex items-center justify-center 
+                border-2 rounded-lg opacity-0 group-[.revealed]:opacity-100 
+                transition-opacity duration-300">
+        <div class="p-4 text-center">{question}</div>
+    </div>
+</div>
+
+<script>
+    const cards = document.querySelectorAll('.game-card');
+
+    cards.forEach((card) => {
+        card.addEventListener('click', function() {
+            card.classList.toggle('revealed');
+        });
+    });
+</script>
