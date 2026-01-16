@@ -14,5 +14,21 @@
         "300": "Vilken sport kör Max Verstappen i?",
         "400": "Hur många spelare är totalt på en volleybollplan",
         "500": "Vilket fotbollslag fick vinst i Champions League 2020?"
+    },
+    "Musik": {
+        "50": "Vad heter lovsången",
+        "100": "Vilka vann förra melodifestivalen?",
+        "200": "Vilken film kommer låten från?",
+        "300": "Vem är artisten som gjort den här låten?", 
+        "400": "I idol finalen sjöng Nicolina Brandström en lovsång, vad heter den?",
+        "500": "Vilka vann melodifestivalen och Eurovision 1974?"
+    },
+    "Challanges": {
+        "50": "Gör 50 armhävningar totalt som ett lag (1 armhävning = 1 poäng)",
+        "100": "Slå upp och läs Rommarbrevet 12:21 i en fysisk bibel på 1 minut",
+        "200": "Hitta David på 1 minut",
+        "300": "Under en stol i kyrkosalen finns en bibelvers på ett papper hitta den på 20 sekunder",
+        "400": "Slå upp andens frukter och läs upp de (fysisk bibel)",
+        "500": "Bygg en snögubbe på 5 minuter"
     }
 }
