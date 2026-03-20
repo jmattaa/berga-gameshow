@@ -1,34 +1,34 @@
 {
     "Bibeln": {
-       "50": "Hur många lärjungar hade Jesus?",
-       "100": "Vem såg Gud i en brännande buske i GT?",
-       "200": "Nämn 3 frukter av andens frukter",
-       "300": "Vad hette David's bästa kompis?",
-       "400": "Vad hette staden som Jona var påväg till?",
-       "500": "Hur många egenskaper beskrivs som Andens frukter?"
+        "50": "Vem byggde en ark i GT?",
+        "100": "Vem döpte Jesus?",
+        "200": "Hur många lärljungar hade Jesus?",
+        "300": "Vad heter sjunde boken i bibeln?",
+        "400": "Nämn 4 av Jesu lärljungar.",
+        "500": "Hur många egenskaper kallar Paulus för andens frukter?"
     },
     "Sport": {
-        "50": "Hur många spelare är på planen i ett fotbollslag",
-        "100": "Nämn 2 sporter som är med i olympiska spelen (sommar eller vinter)",
-        "200": "Hur lång är en fotbollshalvlek?",
-        "300": "Vilken sport kör Max Verstappen i?",
-        "400": "Hur många spelare är totalt på en volleybollplan",
-        "500": "Vilket fotbollslag fick vinst i Champions League 2020?"
+        "50": "Vad står NBA för?",
+        "100": "Vad heter Sveriges största fotbollsliga?",
+        "200": "Vad heter Sveriges nationalarena?",
+        "300": "Hur långt är ett marathon?",
+        "400": "Hur lång är en ishockey match",
+        "500": "Vilken klubb spelar Lionel Messi i just nu?"
     },
-    "Musik": {
-        "50": "Vad heter lovsången",
-        "100": "Vilka vann förra melodifestivalen?",
-        "200": "Vilken film kommer låten från?",
-        "300": "Vem är artisten som gjort den här låten?", 
-        "400": "I idol finalen sjöng Nicolina Brandström en lovsång, vad heter den?",
-        "500": "Vilka vann melodifestivalen och Eurovision 1974?"
+    "Film": {
+        "50": "Vad heter den gröna grabben i Shrek?",
+        "100": "Vad heter prinsessan i Alladin?",
+        "200": "Vad heter Harry Potters uggla?",
+        "300": "Vem regiserade filmen Interstellar?",
+        "400": "Vad heter huvudkaraktären i filmen Interstellar",
+        "500": "Vad är det första djuret man ser i Lejonkungen?"
     },
     "Challanges": {
-        "50": "Gör 50 armhävningar totalt som ett lag (1 armhävning = 1 poäng)",
-        "100": "Slå upp och läs Rommarbrevet 12:21 i en fysisk bibel på 1 minut",
-        "200": "Hitta David på 1 minut",
-        "300": "Under en stol i kyrkosalen finns en bibelvers på ett papper hitta den på 20 sekunder",
-        "400": "Slå upp andens frukter och läs upp de (fysisk bibel)",
-        "500": "Bygg en snögubbe på 5 minuter"
+        "50": "Gör 50 upphopp gemensamnt som ett lag",
+        "100": "Sjung 1 minut från en lovsång",
+        "200": "Hitta Isak på 1 minut",
+        "300": "Gör en kort dans med hela laget",
+        "400": "Under en stol i kyrkosalen finns en bibelvers på ett papper hitta den och läs upp den på 20 sekunder",
+        "500": "Spring ett varv runt kyrkan på under 1,5 minuter"
     }
 }
