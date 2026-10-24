@@ -1,35 +1,27 @@
 ---
 interface Props {
-points: number;
-question: string;
+    points: number;
+    question: string;
 }
 
 const { points, question } = Astro.props;
 ---
 
-<div class="game-card hover:scale-105 hover:rotate-6 transition duration-300 
-            ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] group relative w-50
-            h-full cursor-pointer" 
-    data-points={points} 
-    data-question={question}>
-    <div class="inset-0 flex items-center justify-center h-full
-                border-2 rounded-lg group-hover:bg-slate transition-all 
-                duration-300 opacity-100 group-[.revealed]:opacity-0">
-        <div class="text-4xl font-bold">{points}</div>
-    </div>
-    <div class="text-xl absolute inset-0 flex items-center justify-center 
-                border-2 rounded-lg opacity-0 group-[.revealed]:opacity-100 
-                transition-opacity duration-300">
-        <div class="p-4 text-center">{question}</div>
-    </div>
-</div>
+<button type="button" class="game-card group grid min-h-24 cursor-pointer rounded-lg bg-neutral-900 transition-colors duration-200 ease-out hover:bg-neutral-800 active:scale-[0.98] sm:min-h-32"
+    aria-pressed="false">
+    <span class="col-start-1 row-start-1 flex items-center justify-center px-3 text-3xl font-semibold tabular-nums text-gold transition-opacity duration-200 ease-out group-aria-pressed:opacity-0">
+        {points}
+    </span>
+    <span class="col-start-1 row-start-1 flex items-center justify-center rounded-lg bg-gold p-4 text-center text-sm font-medium leading-snug text-neutral-950 opacity-0 transition-opacity duration-200 ease-out group-aria-pressed:opacity-100 sm:text-base">
+        {question}
+    </span>
+</button>
 
 <script>
-    const cards = document.querySelectorAll('.game-card');
-
-    cards.forEach((card) => {
-        card.addEventListener('click', function() {
-            card.classList.toggle('revealed');
+    document.querySelectorAll('.game-card').forEach((card) => {
+        card.addEventListener('click', () => {
+            const pressed = card.getAttribute('aria-pressed') === 'true';
+            card.setAttribute('aria-pressed', String(!pressed));
         });
     });
 </script>

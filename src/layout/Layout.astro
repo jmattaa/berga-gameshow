@@ -1,18 +1,19 @@
 ---
+import "@fontsource-variable/inter";
 import "../styles/global.css";
 ---
 
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="generator" content={Astro.generator} />
+        <meta name="theme-color" content="#0a0a0a" />
         <title>Berga Gameshow</title>
     </head>
-    <body class="bg-gray-950 text-gray-100">
-        <main class="mt-10">
+    <body class="min-h-screen bg-neutral-950 font-sans text-neutral-100 antialiased">
+        <main class="mx-auto w-full max-w-6xl px-6 py-10 sm:px-8">
             <slot />
         </main>
     </body>
 </html>
-

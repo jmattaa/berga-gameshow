@@ -1,26 +1,26 @@
 {
     "Bibeln": {
         "50": "Vem byggde en ark i GT?",
-        "100": "Vem döpte Jesus?",
+        "100": "Vad heter bibelns första bok",
         "200": "Hur många lärljungar hade Jesus?",
-        "300": "Vad heter sjunde boken i bibeln?",
-        "400": "Nämn 4 av Jesu lärljungar.",
-        "500": "Hur många egenskaper kallar Paulus för andens frukter?"
+        "300": "Gratis poäng 😀 🎉",
+        "400": "Nämn 2 av Jesu lärljungar.",
+        "500": "Hur många egenskaper kallar Paulus för andens frukter? (vi dansade dansen förra veckan)"
     },
     "Sport": {
         "50": "Vad står NBA för?",
         "100": "Vad heter Sveriges största fotbollsliga?",
         "200": "Vad heter Sveriges nationalarena?",
-        "300": "Hur långt är ett marathon?",
-        "400": "Hur lång är en ishockey match",
-        "500": "Vilken klubb spelar Lionel Messi i just nu?"
+        "300": "Hur många spelare är i varje lag i en cricket match",
+        "400": "Hur många poäng från man av en touchdown i amerikanisk fotboll",
+        "500": "Vilket lag vann först VM någonsin år 1930?"
     },
     "Film": {
         "50": "Vad heter den gröna grabben i Shrek?",
         "100": "Vad heter prinsessan i Alladin?",
         "200": "Vad heter Harry Potters uggla?",
         "300": "Vem regiserade filmen Interstellar?",
-        "400": "Vad heter huvudkaraktären i filmen Interstellar",
+        "400": "Vad heter huvudkaraktären i filmen Toy Story",
         "500": "Vad är det första djuret man ser i Lejonkungen?"
     },
     "Challanges": {
@@ -28,7 +28,13 @@
         "100": "Sjung 1 minut från en lovsång",
         "200": "Hitta Samuel på 1 minut",
         "300": "Gör en kort dans med hela laget",
-        "400": "Under en stol i kyrkosalen finns en bibelvers på ett papper hitta den och läs upp den på 20 sekunder",
-        "500": "Spring ett varv runt kyrkan på under 1,5 minuter"
+        "400": "I kyrkosalen finns en bibelvers på ett papper gömt hitta den och läs upp den på en minut",
+        "500": "Spring ett varv runt kyrkan på under 1 minuter",
+        "600": "Hämta ett glas av kanalvatten på under 2 minuter",
+        "700": "Ta på alla ledare på under 2 minuter",
+        "800": "Ta bild med varje ledares bil på under 1 minut",
+        "900": "GET ELLER ATLET???",
+        "1000": "Biljard border!!!",
+        "1100": "Någon i laget hjular"
     }
 }
